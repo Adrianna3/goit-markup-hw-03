@@ -95,7 +95,7 @@ a {
 .footer-mail:hover,
 .footer-mail:focus,
 .footer-phone-number:hover,
-.footer-phone-number:focus,{
+.footer-phone-number:focus{
     color:var(--main-color);
 }
 
@@ -135,7 +135,7 @@ color: #FFFFFF;
 
 
 
-}
+
 /*================END BUTTON================ */
 
 /*================NASZE ATUTY================ */
@@ -260,8 +260,10 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     cursor: pointer;
     border: 0;
-
+    padding: 6px 22px;
 }
+
+
 
 .model-btn-portfolio:hover,
 .model-btn-portfolio:focus{

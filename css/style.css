@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-h1,
+/* h1, */
 h2,
 h3,
 h4,
@@ -24,8 +24,7 @@ h6{
     padding: 0;
 }
 
-ul,
-ol{
+ul{
     padding: 0;
     margin: 0;
 }
@@ -49,16 +48,13 @@ img{
     margin: 0 auto;
 }
 
-/* .section{
-    padding: ;
-} */
-
 
 /*================COMPONENTS================ */
 .model-btn{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
+    
 
     /* identical to box height, or 187% */
     /* align-items: center;
@@ -69,12 +65,13 @@ img{
 
     color: #FFFFFF;
     font-family:var(--font-family);
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
     height: 50px;
-    left: 740px;
+    left: 700px;
     top: 430px;
     
+   
     
 
     background: #2196F3;
@@ -109,6 +106,7 @@ img{
 
 .navigation-logo{
    margin-right: 93px;
+   font-family: var( --secondary-font);
 }
 
 .navigation-list {
@@ -187,8 +185,9 @@ img{
 /*================END HEADER================ */
 
 /*================BUTTON================ */
-.main-header{
 
+
+.button-content h1{
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -197,20 +196,26 @@ line-height: 1.364;
 /* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
-text-transform: uppercase;
+/* width: 46.5rem; */
+/* text-transform: uppercase; */
 color: #FFFFFF;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
 
-padding-left: 452px;
-padding-top: 280px;
-
+/* left: 452px;
+top: 280px; */
+margin-right: auto;
+margin-left: auto;
+ 
 }
 
-.button{
-
+.button {
+ background :#2F303A;
   height: 37.5rem;
   display: flex;
   align-items: center;
-  background: #2F303A;
 }
 
 

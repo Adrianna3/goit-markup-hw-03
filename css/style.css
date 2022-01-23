@@ -14,13 +14,13 @@ a {
     text-decoration: none;
 }
 
-/* h1, */
+h1,
 h2,
 h3,
 h4,
 h5,
 h6{
-    margin: 0;  
+    /* margin: 0;   */
     padding: 0;
 }
 
@@ -48,12 +48,23 @@ img{
     margin: 0 auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 /*================COMPONENTS================ */
 .model-btn{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
+    margin: 0 auto;
+    display: block;
     
 
     /* identical to box height, or 187% */
@@ -87,6 +98,7 @@ img{
     line-height: 1.666;
     text-align: center;
     letter-spacing: 0.03em;
+    
 }
 
 /*================END COMPONENTS================ */
@@ -94,11 +106,15 @@ img{
 
 /*================HEADER================ */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header .container{
     display: flex;
     align-items: center;
     padding-top: 32px;
-    padding-bottom: 25px;
+    padding-bottom: 32px;
 }
 
 
@@ -107,7 +123,8 @@ img{
    font-family: var( --secondary-font);
 }
 
-.navigation-list {
+.navigation-list,
+.navigation-advantages-list {
     display: flex;
     align-items: center;
 }
@@ -129,6 +146,14 @@ img{
     margin-right: 50px;
 }
 
+.navigation-advantages-item:not(:last-child){
+    margin-right: 30px;
+    top: 93px;
+}
+
+.navigation-advantages-item{
+    top: 774px;
+}
 
 .navigation-logo,
 .navigation-logo-footer {     
@@ -214,12 +239,20 @@ margin-left: auto;
   align-items: center;
 }
 
-
-
-
 /*================END BUTTON================ */
 
 /*================NASZE ATUTY================ */
+
+.what-we-do .secondary-header{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.what-we-do-list{
+    display: flex;
+    justify-content: space-between;
+}
+
 .navigation-advantages-h4{    
     font-style: normal;
     font-weight: bold;
@@ -227,6 +260,8 @@ margin-left: auto;
     line-height: 1.43;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    left: 215px;
+top: 774px;
     
 
 }
@@ -245,18 +280,34 @@ margin-left: auto;
 
 /*================STAFF================ */
 
+.staff .secondary-header{
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.staff-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-header{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.staff_p{
+    margin: 0;
+}
+
 .third-header{   
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.187;
-
 }
 .staff{
    background: #F5F4FA;
 }
-    
-
 
 .staff_p{   
     font-style: normal;
@@ -270,9 +321,23 @@ margin-left: auto;
 /*================END STAFF================ */
 
 /*================FOOTER================ */
+.navigation-logo-footer{
+    margin-top: 60px;
+}
+
+.footer-address{
+    margin-top: 20px;
+    margin-bottom: 9px;
+}
+
+.footer_list_item:not(:last-child){
+    margin-bottom: 9px;
+}
+
 .footer{
     background: #2F303A;
 }
+
 .footer_list{    
     font-style: normal;
     font-weight: normal;
@@ -285,6 +350,11 @@ margin-left: auto;
 .footer-address{
     color: #FFFFFF;
 } 
+ 
+.navigation-logo-footer{
+    font-family: var(--secondary-font);
+}
+
  .footer-mail,
 .footer-phone-number{
 color: rgba(255, 255, 255, 0.6);

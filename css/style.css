@@ -97,7 +97,6 @@ img{
     line-height: 1.666;
     text-align: center;
     letter-spacing: 0.03em;
-    
 }
 
 /*================END COMPONENTS================ */
@@ -298,7 +297,6 @@ margin-left: auto;
 
 .staff_p{
     margin: 0;
-    margin-left: 99px;
 }
 
 .third-header{   
@@ -316,6 +314,7 @@ margin-left: auto;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.187;
+    text-align: center;
 
     color: rgba(117, 117, 117, 0.63);    
 }

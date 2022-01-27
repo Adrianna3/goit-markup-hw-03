@@ -14,13 +14,13 @@ a {
     text-decoration: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
 h5,
 h6{
-    /* margin: 0;   */
+    margin: 0;  
     padding: 0;
 }
 
@@ -112,8 +112,7 @@ img{
 .header .container{
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    Height: 80px;
 }
 
 
@@ -149,7 +148,10 @@ img{
     margin-right: 30px;
     top: 93px;
 }
-
+.navigation-advantages{
+   padding-top: 94px;
+   margin:0;
+}
 .navigation-advantages-item{
     top: 774px;
 }
@@ -227,7 +229,7 @@ left: 452px;
 top: 280px;
 
 margin-right: auto;
-margin-left: auto; 
+margin-left: auto;
 }
 
 .button {
@@ -259,10 +261,9 @@ margin-left: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     left: 215px;
-top: 774px;
-    
-
+    top: 774px;
 }
+
 .navigation-advantages-p{    
     font-style: normal;
     font-weight: normal;
@@ -286,15 +287,18 @@ top: 774px;
 .staff-list{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .third-header{
     margin-top: 30px;
     margin-bottom: 10px;
+    margin-left: 99px;
 }
 
 .staff_p{
     margin: 0;
+    margin-left: 99px;
 }
 
 .third-header{   
@@ -313,8 +317,20 @@ top: 774px;
     font-size: 16px;
     line-height: 1.187;
 
-    color: rgba(117, 117, 117, 0.63);
-    
+    color: rgba(117, 117, 117, 0.63);    
+}
+
+.staff-list-item{  
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;
+
+    background: #FFFFFF;
+
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 /*================END STAFF================ */
 
@@ -386,6 +402,7 @@ color: rgba(255, 255, 255, 0.6);
 
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
+    
 }
 
 .staff_p-project{
